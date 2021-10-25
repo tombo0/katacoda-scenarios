@@ -1,0 +1,14 @@
+{
+    "scenarios": [
+      {
+        "title": "Hello world",
+        "description": "Learn how to create your first Katacoda scenario",
+        "id": "hello-world"
+      },
+      {
+        "title": "Tes Cik",
+        "description": "Learn how to create your first Katacoda scenario",
+        "id": "testcik"
+      }
+    ]
+}
