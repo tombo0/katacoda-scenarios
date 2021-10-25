@@ -1,8 +1,8 @@
 {
 	"scenarios": [
 		{
-			"title": "Tes Cik",
-			"description": "Learn how to create your first Katacoda scenario",
+			"title": "Kafka Topic Replication",
+			"description": "Praktikum pembuatan topic replication pada Apache Kafka",
 			"id": "kafka-topic-replication"
 		}
 	]
