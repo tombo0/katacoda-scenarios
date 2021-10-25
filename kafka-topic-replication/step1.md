@@ -9,6 +9,7 @@ Sekarang kita akan membuat sebuah file bernama `docker-compose.yaml`
 Lalu masukan code berikut kedalam file tersebut.
 
 `
+```
 ---
 version: '2'
 services:
@@ -19,7 +20,6 @@ services:
       ZOOKEEPER_TICK_TIME: 2000
     ports:
       - 22181:2181
-
   zookeeper-2:
     image: confluentinc/cp-zookeeper:latest
     environment:
@@ -27,7 +27,7 @@ services:
       ZOOKEEPER_TICK_TIME: 2000
     ports:
       - 32181:2181
-  
+      
   kafka-1:
     image: confluentinc/cp-kafka:latest
     depends_on:
@@ -57,7 +57,7 @@ services:
       KAFKA_LISTENER_SECURITY_PROTOCOL_MAP: PLAINTEXT:PLAINTEXT,PLAINTEXT_HOST:PLAINTEXT
       KAFKA_INTER_BROKER_LISTENER_NAME: PLAINTEXT
       KAFKA_OFFSETS_TOPIC_REPLICATION_FACTOR: 1
-
+```
 `{{copy}}
 
 ## Fire Up Cluster
