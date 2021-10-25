@@ -10,4 +10,4 @@ Karena kita mempunyai sebuah Cluster, maka apa yang kita buat di `kafka-1` akan 
 
 Karena kita membuat topic di `kafka-1`, agar adil, kita akan me-list topic di `kafka-2`. 
 
-`docker-compose exec kafka-2 kafka-topics --list --zookeeper zookeeper-2:2181`{{execute}}
+`docker-compose exec kafka-2 kafka-topics --list --zookeeper zookeeper-1:2181`{{execute}}
