@@ -1,7 +1,9 @@
 {
-    "scenarios": [
-      {
-        "id": "kafka-topic-replication"
-      }     
-    ]
+	"scenarios": [
+		{
+			"title": "Tes Cik",
+			"description": "Learn how to create your first Katacoda scenario",
+			"id": "kafka-topic-replication"
+		}
+	]
 }
